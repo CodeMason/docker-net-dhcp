@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-22.04
 
     env:
-      PLUGIN_NAME: ghcr.io/CodeMason/docker-net-dhcp
+      PLUGIN_NAME: ghcr.io/codemason/docker-net-dhcp
       PLATFORMS: linux/amd64,linux/386,linux/arm64,linux/arm/v7,linux/arm/v8
 
     steps:
