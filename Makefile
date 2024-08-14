@@ -1,4 +1,4 @@
-PLUGIN_NAME = ghcr.io/CodeMason/docker-net-dhcp
+PLUGIN_NAME = ghcr.io/codemason/docker-net-dhcp
 PLUGIN_TAG ?= golang
 PLATFORMS ?= linux/amd64,linux/arm64/v8
 
