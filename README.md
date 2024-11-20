@@ -176,7 +176,11 @@ Note:
 
 ## Debugging
 
-To read the plugin's log, do `cat /var/lib/docker/plugins/*/rootfs/var/log/net-dhcp.log` (as `root`). You can also use
+To read the plugin's log
+- `cat /var/lib/docker/plugins/*/rootfs/var/log/net-dhcp.log` (as `root`).
+- `cat /mnt/.ix-apps/docker/plugins/*/rootfs/var/log/net-dhcp.log`  (TruNas Scale 24.10, as `root`)
+
+- You can also use
 `docker plugin set ghcr.io/codemason/docker-net-dhcp:release-linux-amd64 LOG_LEVEL=trace` to increase log verbosity.
 
 # Implementation
